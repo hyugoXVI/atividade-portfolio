@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Hugo Aragão Layme</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav id="menu-principal">
+        <ul>
+            <li><a href="#sobre">Sobre mim</a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="sobre" class="caixa-sessao">
+            <h2>Sobre mim</h2>
+           Meu nome é Hugo Aragão Layme, graduando em Engenharia de Software com grande interesse no desenvolvimento Back-end. Tenho focado meu aprendizado prático na linguagem Java e no framework Spring Boot, construindo a base necessária para atuar na criação de sistemas complexos.
+        
+        </section>
+
+        <section id="formacao" class="caixa-sessao">
+            <h2>Formação</h2>
+            <ul>
+                <li><strong>Faculdade:</strong> Cursando Engenharia de Software na Uninter.</li>
+                <li><strong>Idiomas:</strong> Inglês Intermediário.</li>
+                <li><strong>Tecnologias:</strong> Java, Docker, Postman, Postgresql, React.</li>
+            </ul>
+        </section>
+
+        <section id="portfolio" class="caixa-sessao">
+            <h2>Portfólio</h2>
+            <ul>
+                <li><a href="https://github.com/hyugoXVI/personal-finance-manager">Projeto 1: Gerenciamento de Finanças Pessoal</a></li>
+                <li><a href="https://github.com/hyugoXVI/atividade-portfolio">Projeto 2: Atividade Prática de Aplicação Web e Móveis (esse portfólio)</a></li>
+            </ul>
+        </section>
+
+        <section id="contato" class="caixa-sessao">
+            <h2>Contato</h2>
+            <form id="meuFormulario">
+                <div class="grupo-campo">
+                    <label>Seu Nome:</label>
+                    <input type="text" id="campo-nome">
+                </div>
+                
+                <div class="grupo-campo">
+                    <label>Seu E-mail:</label>
+                    <input type="text" id="campo-email">
+                </div>
+                
+                <div class="grupo-campo">
+                    <label>Sua Mensagem:</label>
+                    <textarea id="campo-mensagem" rows="5"></textarea>
+                </div>
+                
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
